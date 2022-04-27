@@ -1,0 +1,31 @@
+.card {
+  margin-top: 15px;
+}
+
+.card img {
+  height: 200px;
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+  .card {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+  .card {
+    opacity: 0;
+    -webkit-transition: 5s;
+    transition: 5s;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  .card {
+    background-color: green;
+  }
+}
+/*# sourceMappingURL=style.css.map */
